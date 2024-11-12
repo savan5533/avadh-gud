@@ -1,21 +1,23 @@
-import Banner from './components/Banner/index';
-import Features from './components/Work/index';
-import Cook from './components/Cook/index';
-import Expert from './components/Expert/index';
-import Gallery from './components/Gallery/index';
-import Newsletter from './components/Newsletter/Newsletter';
+import ProductSlider from './components/Product/product';
+import BenefitsOfJaggery from './components/BenefitsOfJaggery/index';
+import Hero from './components/Hero';
+import ExperienceSection from './components/Gudsection';
+import CertifiedSection from './components/CertifiedSection';
+import AboutUs from './components/AboutUs/index';
+import WhyChooseUs from './components/WhyChooseUs';
 
 
 
 export default function Home() {
   return (
     <main>
-      <Banner />
-      <Features />
-      <Cook />
-      <Expert />
-      <Gallery />
-      <Newsletter />
+      <Hero/>
+      <ExperienceSection/>
+      <AboutUs />
+      <ProductSlider/>
+      <BenefitsOfJaggery/>
+      <WhyChooseUs/>
+      <CertifiedSection/>
     </main>
   )
 }
