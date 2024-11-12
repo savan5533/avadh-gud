@@ -29,8 +29,8 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
           <header className="px-4 py-4 flex items-center justify-between">
             <div className="flex flex-shrink-0 items-center border-right">
               <Image
-                src="/images/Logo/avadhLogo.png"
-                alt="logo"
+                src="/images/Logo/avadh-desi-gud-logo.png"
+                alt="Avadh Desi Gud"
                 width={120}
                 height={10}
               />

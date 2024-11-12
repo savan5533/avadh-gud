@@ -32,8 +32,8 @@ const ExperienceSection = () => {
             triggerOnce={true}
           >
             <Image
-              src="/images/Logo/avadhLogo.png"
-              alt="Gud Image"
+              src="/images/Logo/avadh-desi-gud-logo.png"
+              alt="Avadh Desi Gud"
               width={150}
               height={150}
             />
