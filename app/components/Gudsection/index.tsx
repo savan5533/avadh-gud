@@ -8,7 +8,7 @@ const ExperienceSection = () => {
       <div className="mx-auto max-w-5xl text-center px-6">
         <div className="absolute right-0 bottom-[-27%] block lg:hidden opacity-20">
           <Image
-            src={"/images/AboutUs/sugarcane.png"}
+            src={"/public/images/AboutUs/sugarcane.png"}
             alt="sugarcane-crop-image"
             width={150} // Adjusted width for mobile
             height={240} // Adjusted height for mobile
@@ -16,7 +16,7 @@ const ExperienceSection = () => {
         </div>
         <div className="absolute right-0 bottom-[-123%] hidden lg:block">
           <Image
-            src={"/images/AboutUs/sugarcane.png"}
+            src={"/public/images/AboutUs/sugarcane.png"}
             alt="sugarcane-crop-image"
             width={263} // Original width for desktop
             height={422} // Original height for desktop
@@ -32,7 +32,7 @@ const ExperienceSection = () => {
             triggerOnce={true}
           >
             <Image
-              src="/images/Logo/avadh-desi-gud-logo.png"
+              src="/public/images/Logo/avadh-desi-gud-logo.png"
               alt="Avadh Desi Gud"
               width={150}
               height={150}

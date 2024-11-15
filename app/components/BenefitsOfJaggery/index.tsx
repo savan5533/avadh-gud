@@ -12,32 +12,32 @@ const benefits = [
   {
     id: 1,
     name: "Purifies Blood",
-    image: itm1,
+    image: "/public/images/Benefits/blood.png",
   },
   {
     id: 2,
     name: "Improve Skin Health",
-    image: itm2,
+    image: "/public/images/Benefits/skin.png",
   },
   {
     id: 3,
     name: "Increase Hemoglobin",
-    image: itm3,
+    image: "/public/images/Benefits/hemoglobin.png",
   },
   {
     id: 4,
     name: "Increase Metabolism",
-    image: itm4,
+    image: "/public/images/Benefits/metabolism.png",
   },
   {
     id: 5,
     name: "Improve Immune System",
-    image: itm5,
+    image: "/public/images/Benefits/immunity.png",
   },
   {
     id: 6,
     name: "Improve Digestion",
-    image: itm6,
+    image: "/public/images/Benefits/digestion.png",
   },
 ];
 

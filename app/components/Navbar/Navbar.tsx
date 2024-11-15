@@ -45,16 +45,16 @@ const Navbar = () => {
               {/* LOGO */}
 
               <div className="flex sm:hidden flex-shrink-0 items-center border-right">
-                <Image
-                  src="/images/Logo/avadh-desi-gud-logo.png"
-                  alt="Avadh Desi Gud"
-                  width={120}
-                  height={120}
-                />
+                  <Image
+                    src="/public/images/Logo/avadh-desi-gud-logo.png"
+                    alt="Avadh Desi Gud"
+                    width={120}
+                    height={120}
+                  />
               </div>
               <div className="hidden sm:flex flex-shrink-0 items-center border-right">
                 <Image
-                  src="/images/Logo/avadh-desi-gud-logo.png"
+                  src="/public/images/Logo/avadh-desi-gud-logo.png"
                   alt="Avadh Desi Gud"
                   width={150}
                   height={150}
