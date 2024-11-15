@@ -4,8 +4,8 @@ import Slider from "react-slick";
 import { Fade } from "react-awesome-reveal";
 import product1 from "../../../public/images/Products/jaggery.png";
 import product2 from "../../../public/images/Products/jaggery-cubes.png";
-import product3 from "../../../public/images/products/jaggery-powder.png";
-import product4 from "../../../public/images/products/kakavi.png";
+import product3 from "../../../public/images/Products/jaggery-powder.png";
+import product4 from "../../../public/images/Products/kakavi.png";
 import product5 from "../../../public/images/Products/dryfruit-jaggery.png";
 
 const ProductSlider = () => {

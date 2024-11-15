@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+const nextConfig = {
+    output: 'export'  // for static exports (or 'standalone' for SSR)
+  };
+  
+  module.exports = nextConfig;
+  
