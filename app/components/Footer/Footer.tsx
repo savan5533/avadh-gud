@@ -70,7 +70,7 @@ const Footer = () => {
               height={120}
             />
           </div>
-          <h3 className="text-white text-xs font-semibold mt-5 mb-4 lg:mb-16">
+          <h3 className="text-white text-lg font-bold mt-5 mb-4 lg:mb-16">
             Taste Forever
           </h3>
           <div className="flex gap-4">

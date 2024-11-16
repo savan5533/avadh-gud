@@ -7,6 +7,9 @@ import product2 from "../../../public/images/Products/jaggery-cubes.png";
 import product3 from "../../../public/images/Products/jaggery-powder.png";
 import product4 from "../../../public/images/Products/kakavi.png";
 import product5 from "../../../public/images/Products/dryfruit-jaggery.png";
+import product6 from "../../../public/images/Products/masala-jaggery.png";
+import product7 from "../../../public/images/Products/kesar-mango-pulp.png";
+import product8 from "../../../public/images/Products/kesar-mango.png";
 
 const ProductSlider = () => {
   const products = [
@@ -40,6 +43,24 @@ const ProductSlider = () => {
       image: product5,
       link: "https://amzn.in/d/9XuhKD1",
     },
+    {
+      id: 6,
+      name: "Masala Jaggery",
+      image: product6,
+      link: "https://amzn.in/d/9XuhKD1",
+    },
+    {
+      id: 6,
+      name: "Kesar Mango",
+      image: product7,
+      link: "/",
+    },
+    {
+      id: 6,
+      name: "Kesar Mango Pulp",
+      image: product8,
+      link: "/",
+    },
   ];
 
   const settings = {
@@ -72,7 +93,13 @@ const ProductSlider = () => {
         <h2 className="text-white text-lg font-normal mb-3 ls-51 uppercase text-center">
           Our Products
         </h2>
-        <Fade direction={"up"} delay={400} cascade damping={1e-1} triggerOnce={true}>
+        <Fade
+          direction={"up"}
+          delay={400}
+          cascade
+          damping={1e-1}
+          triggerOnce={true}
+        >
           <Slider {...settings} className="relative">
             {products.map((product) => (
               <div key={product.id} className="px-4">

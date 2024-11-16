@@ -5,12 +5,14 @@ import cert1 from "../../../public/images/Certified/fssai.png";
 import cert2 from "../../../public/images/Certified/ISO.png";
 import cert3 from "../../../public/images/Certified/msme.png";
 import cert4 from "../../../public/images/Certified/gst.png";
+import cert5 from "../../../public/images/Certified/trademark.jpg";
 
 const certifications = [
   { id: 1, image: cert1 },
   { id: 2, image: cert2 },
   { id: 3, image: cert3 },
   { id: 4, image: cert4 },
+  { id: 5, image: cert5 },
 ];
 
 const CertifiedSection = () => {
@@ -40,7 +42,7 @@ const CertifiedSection = () => {
           damping={1e-1}
           triggerOnce={true}
         >
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-center place-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 justify-center place-items-center">
             {certifications.map((cert) => (
               <div key={cert.id} className="flex items-center justify-center">
                 {/* Image for each certification */}
